@@ -1,6 +1,9 @@
 {
   "name": "iron-lung-server",
   "version": "1.0.0",
+  "engines": {
+  "node": ">=22.0.0"
+},
   "description": "IRON LUNG - Backend API Server",
   "main": "src/server.js",
   "scripts": {
