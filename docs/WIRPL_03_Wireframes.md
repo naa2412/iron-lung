@@ -1,11 +1,11 @@
-# Wireframe Descriptions
-## WIRPL — Web Integration for Resources, Projects & Learning
+﻿# Wireframe Descriptions
+## IRON LUNG — Intelligent Resource Organizer for Networking, Learning, Unified iNternships, and Group collaboration
 
 ---
 
 | Atribut | Nilai |
 |---------|-------|
-| **Dokumen ID** | WFD-WIRPL-001 |
+| **Dokumen ID** | WFD-IRONLUNG-001 |
 | **Versi** | 1.0.0 |
 | **Tanggal** | 10 Juni 2026 |
 | **Status** | Draft |
@@ -34,7 +34,7 @@
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  NAVBAR (sticky, glassmorphism)                             │
-│  [Logo WIRPL]          [Peluang] [Tentang]  [Login] [Daftar]│
+│  [Logo IRON LUNG]          [Peluang] [Tentang]  [Login] [Daftar]│
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │  HERO SECTION (gradient background + illustration SVG)      │
@@ -76,7 +76,7 @@
 │  [1. Daftar Akun] ──► [2. Temukan Peluang] ──► [3. Apply!] │
 │                                                             │
 │  FOOTER                                                     │
-│  Logo · Navigasi · GitHub · © 2026 Tim WIRPL               │
+│  Logo · Navigasi · GitHub · © 2026 Tim IRON LUNG               │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -404,4 +404,4 @@
 
 ---
 
-*© 2026 Tim Pengembang WIRPL*
+*© 2026 Tim Pengembang IRON LUNG*

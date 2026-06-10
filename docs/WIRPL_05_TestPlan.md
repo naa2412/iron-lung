@@ -1,11 +1,11 @@
-# Test Plan & Test Checklist
-## WIRPL — Web Integration for Resources, Projects & Learning
+﻿# Test Plan & Test Checklist
+## IRON LUNG — Intelligent Resource Organizer for Networking, Learning, Unified iNternships, and Group collaboration
 
 ---
 
 | Atribut | Nilai |
 |---------|-------|
-| **Dokumen ID** | TP-WIRPL-001 |
+| **Dokumen ID** | TP-IRONLUNG-001 |
 | **Versi** | 1.0.0 |
 | **Tanggal** | 10 Juni 2026 |
 | **Status** | Draft |
@@ -242,4 +242,4 @@ Gunakan format berikut untuk setiap bug yang ditemukan selama testing:
 ---
 
 *Standar referensi: IEEE 829-2008 · ISO/IEC 25010 · OWASP Top 10:2021*
-*© 2026 Tim Pengembang WIRPL*
+*© 2026 Tim Pengembang IRON LUNG*

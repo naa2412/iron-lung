@@ -1,11 +1,11 @@
-# Software Architecture Diagram
-## WIRPL — Web Integration for Resources, Projects & Learning
+﻿# Software Architecture Diagram
+## IRON LUNG — Intelligent Resource Organizer for Networking, Learning, Unified iNternships, and Group collaboration
 
 ---
 
 | Atribut | Nilai |
 |---------|-------|
-| **Dokumen ID** | SAD-WIRPL-001 |
+| **Dokumen ID** | SAD-IRONLUNG-001 |
 | **Versi** | 1.0.0 |
 | **Tanggal** | 10 Juni 2026 |
 | **Status** | Draft |
@@ -57,7 +57,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                            WIRPL SYSTEM                                 │
+│                            IRON LUNG SYSTEM                                 │
 │                                                                         │
 │   BROWSER / CLIENT                                                      │
 │   ┌──────────────────────────────────────────────────────────────────┐  │
@@ -132,7 +132,7 @@
 ## 3. Struktur Direktori
 
 ```
-wirpl/
+iron-lung/
 │
 ├── client/                          # Frontend Application
 │   ├── public/
@@ -440,4 +440,4 @@ localhost:5432 (PostgreSQL)    │  Frontend (Vercel)               │
 ---
 
 *Standar referensi: ISO/IEC 12207 · ISO/IEC 25010 · OWASP Top 10:2021*
-*© 2026 Tim Pengembang WIRPL*
+*© 2026 Tim Pengembang IRON LUNG*

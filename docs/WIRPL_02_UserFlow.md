@@ -1,11 +1,11 @@
-# User Flow Diagram
-## WIRPL — Web Integration for Resources, Projects & Learning
+﻿# User Flow Diagram
+## IRON LUNG — Intelligent Resource Organizer for Networking, Learning, Unified iNternships, and Group collaboration
 
 ---
 
 | Atribut | Nilai |
 |---------|-------|
-| **Dokumen ID** | UFD-WIRPL-001 |
+| **Dokumen ID** | UFD-IRONLUNG-001 |
 | **Versi** | 1.0.0 |
 | **Tanggal** | 10 Juni 2026 |
 | **Status** | Draft |
@@ -259,7 +259,7 @@
 | Role | Halaman Home | Akses Navigasi |
 |------|-------------|----------------|
 | **Mahasiswa** | `/dashboard` | `/peluang` · `/lamaran` · `/tersimpan` · `/portofolio` · `/notifikasi` · `/profil` |
-| **Mitra** | `/perusahaan/dashboard` | `/perusahaan/buat-peluang` · `/perusahaan/kelola` · `/perusahaan/pelamar` · `/perusahaan/kandidat` · `/perusahaan/profil` |
+| **Industri** | `/perusahaan/dashboard` | `/perusahaan/buat-peluang` · `/perusahaan/kelola` · `/perusahaan/pelamar` · `/perusahaan/kandidat` · `/perusahaan/profil` |
 | **Admin** | `/admin/dashboard` | `/admin/moderasi` · `/admin/pengguna` |
 | **Publik** | `/` (Landing) | `/peluang` (read-only) · `/peluang/:id` · `/profil/:id` |
 
@@ -278,4 +278,4 @@
 
 ---
 
-*© 2026 Tim Pengembang WIRPL*
+*© 2026 Tim Pengembang IRON LUNG*

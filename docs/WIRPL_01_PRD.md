@@ -1,11 +1,11 @@
-# Product Requirements Document (PRD)
-## WIRPL — Web Integration for Resources, Projects & Learning
+﻿# Product Requirements Document (PRD)
+## IRON LUNG — Intelligent Resource Organizer for Networking, Learning, Unified iNternships, and Group collaboration
 
 ---
 
 | Atribut | Nilai |
 |---------|-------|
-| **Dokumen ID** | PRD-WIRPL-001 |
+| **Dokumen ID** | PRD-IRONLUNG-001 |
 | **Versi** | 1.0.0 |
 | **Tanggal** | 10 Juni 2026 |
 | **Status** | Draft |
@@ -25,7 +25,7 @@
 
 ## 1. Ringkasan Produk
 
-**WIRPL** adalah platform web yang menghubungkan mahasiswa dengan kesempatan kolaborasi proyek, magang, dan kompetisi. Platform ini bertindak sebagai jembatan antara mahasiswa yang ingin berkembang, organisasi/perusahaan yang menyediakan peluang, dan admin yang menjaga kualitas konten platform.
+**IRON LUNG** adalah platform web yang menghubungkan mahasiswa dengan kesempatan kolaborasi proyek, magang, dan kompetisi. Platform ini bertindak sebagai jembatan antara mahasiswa yang ingin berkembang, organisasi/perusahaan yang menyediakan peluang, dan admin yang menjaga kualitas konten platform.
 
 **Problem Statement:**
 Mahasiswa sering kesulitan menemukan peluang kolaborasi, magang, dan kompetisi yang relevan secara terpusat. Informasi tersebar di berbagai platform, grup chat, dan media sosial tanpa sistem yang terstruktur.
@@ -39,7 +39,7 @@ Mahasiswa sering kesulitan menemukan peluang kolaborasi, magang, dan kompetisi y
 | Role | Deskripsi | Hak Akses Utama |
 |------|-----------|-----------------|
 | **Mahasiswa** | Pengguna utama — pencari peluang | Browse, apply, simpan, kelola profil & portofolio |
-| **Mitra / Organisasi** | Penyedia peluang (perusahaan, komunitas, kampus) | Posting peluang, kelola listing, review pelamar |
+| **Industri** | Penyedia peluang (perusahaan, komunitas, kampus) | Posting peluang, kelola listing, review pelamar |
 | **Admin** | Pengelola platform | Moderasi konten, manajemen pengguna, analitik |
 | **Pengunjung Publik** | Belum login | Lihat daftar & detail peluang (read-only) |
 
@@ -49,9 +49,9 @@ Mahasiswa sering kesulitan menemukan peluang kolaborasi, magang, dan kompetisi y
 
 ### ✅ In Scope (v1.0)
 
-- Registrasi & autentikasi berbasis peran (Mahasiswa, Mitra, Admin)
+- Registrasi & autentikasi berbasis peran (Mahasiswa, Industri, Admin)
 - Mahasiswa dapat browse, filter, dan mendaftar peluang
-- Mitra dapat memposting dan mengelola peluang
+- Industri dapat memposting dan mengelola peluang
 - Admin dapat memoderasi konten sebelum tayang publik
 - Sistem notifikasi in-app untuk event penting
 - Profil publik mahasiswa dengan portofolio digital
@@ -122,7 +122,7 @@ Mahasiswa sering kesulitan menemukan peluang kolaborasi, magang, dan kompetisi y
 | AC1 | Tombol "Daftar" hanya aktif untuk peluang berstatus `ACTIVE` |
 | AC2 | Mahasiswa tidak dapat mendaftar ke peluang yang sama dua kali (HTTP 409) |
 | AC3 | Cover letter bersifat opsional; portofolio URL juga dapat dilampirkan |
-| AC4 | Setelah berhasil, muncul notifikasi sukses (toast) dan mitra mendapat notifikasi |
+| AC4 | Setelah berhasil, muncul notifikasi sukses (toast) dan Industri mendapat notifikasi |
 | AC5 | Status lamaran awal adalah `APPLIED` |
 
 ---
@@ -152,7 +152,7 @@ Mahasiswa sering kesulitan menemukan peluang kolaborasi, magang, dan kompetisi y
 
 ---
 
-### 🏢 MITRA / ORGANISASI
+### 🏢 Industri
 
 #### US-O01 — Posting Peluang
 > *Sebagai mitra, saya ingin memposting peluang agar dapat ditemukan oleh mahasiswa.*
@@ -161,7 +161,7 @@ Mahasiswa sering kesulitan menemukan peluang kolaborasi, magang, dan kompetisi y
 |---|---------------------|
 | AC1 | Form posting meminta: judul, kategori, deskripsi, requirements, lokasi, deadline, skills required |
 | AC2 | Peluang baru langsung berstatus `PENDING` (tidak langsung publik) |
-| AC3 | Mitra mendapat notifikasi setelah peluang disetujui atau ditolak oleh Admin |
+| AC3 | Industri mendapat notifikasi setelah peluang disetujui atau ditolak oleh Admin |
 | AC4 | Input divalidasi (deadline tidak boleh di masa lalu, deskripsi min. 50 karakter) |
 
 ---
@@ -171,7 +171,7 @@ Mahasiswa sering kesulitan menemukan peluang kolaborasi, magang, dan kompetisi y
 
 | # | Acceptance Criteria |
 |---|---------------------|
-| AC1 | Mitra dapat melihat daftar pelamar beserta profil dan cover letter mereka |
+| AC1 | Industri dapat melihat daftar pelamar beserta profil dan cover letter mereka |
 | AC2 | Mitra dapat mengubah status lamaran: `VIEWED` → `ACCEPTED` atau `REJECTED` |
 | AC3 | Mahasiswa mendapat notifikasi otomatis saat status lamarannya berubah |
 | AC4 | Hanya pemilik peluang yang dapat mengelola pelamarnya |
@@ -214,4 +214,4 @@ Mahasiswa sering kesulitan menemukan peluang kolaborasi, magang, dan kompetisi y
 ---
 
 *Standar referensi: IEEE 830-1998 · ISO/IEC 25010 · OWASP Top 10:2021*
-*© 2026 Tim Pengembang WIRPL*
+*© 2026 Tim Pengembang IRON LUNG*

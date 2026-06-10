@@ -1,11 +1,11 @@
-# Release Plan
-## WIRPL — Web Integration for Resources, Projects & Learning
+﻿# Release Plan
+## IRON LUNG — Intelligent Resource Organizer for Networking, Learning, Unified iNternships, and Group collaboration
 
 ---
 
 | Atribut | Nilai |
 |---------|-------|
-| **Dokumen ID** | RP-WIRPL-001 |
+| **Dokumen ID** | RP-IRONLUNG-001 |
 | **Versi** | 1.0.0 |
 | **Tanggal** | 10 Juni 2026 |
 | **Status** | Draft |
@@ -275,4 +275,4 @@ main (production)
 ---
 
 *Standar referensi: IEEE 830-1998 · ISO/IEC 12207*
-*© 2026 Tim Pengembang WIRPL*
+*© 2026 Tim Pengembang IRON LUNG*
