@@ -1,4 +1,4 @@
-﻿# Wireframe Descriptions
+# Wireframe Descriptions
 ## IRON LUNG — Intelligent Resource Organizer for Networking, Learning, Unified iNternships, and Group collaboration
 
 ---
@@ -23,7 +23,7 @@
 4. [Dashboard Mahasiswa — `/dashboard`](#4-dashboard-mahasiswa--dashboard)
 5. [Halaman Portofolio — `/portofolio`](#5-halaman-portofolio--portofolio)
 6. [Halaman Notifikasi — `/notifikasi`](#6-halaman-notifikasi--notifikasi)
-7. [Dashboard Mitra — `/perusahaan/dashboard`](#7-dashboard-mitra--perusahaandashboard)
+7. [Dashboard Industri — `/perusahaan/dashboard`](#7-dashboard-industri--perusahaandashboard)
 8. [Halaman Moderasi Admin — `/admin/moderasi`](#8-halaman-moderasi-admin--adminmoderasi)
 9. [Pertimbangan Mobile](#9-pertimbangan-mobile)
 
@@ -324,13 +324,13 @@
 
 ---
 
-## 7. Dashboard Mitra — `/perusahaan/dashboard`
+## 7. Dashboard Industri — `/perusahaan/dashboard`
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│ SIDEBAR MITRA                     │  MAIN CONTENT           │
+│ SIDEBAR INDUSTRI                     │  MAIN CONTENT           │
 │ [Logo Perusahaan]                 │                         │
-│ Nama Perusahaan                   │  "Dashboard Mitra 🏢"   │
+│ Nama Perusahaan                   │  "Dashboard Industri 🏢"   │
 │ ──────────────                    │                         │
 │ 📊 Dashboard                      │  STATS ROW              │
 │ ➕ Buat Peluang                   │  [8 Listing] [45 Lamaran]│
@@ -393,7 +393,7 @@
 | Filter peluang | Sidebar kiri | Bottom sheet / drawer |
 | Opportunity cards | Grid 2–3 kolom | Single column stack |
 | Detail peluang action | Panel kanan sticky | Fixed bar di bawah layar |
-| Tabel pelamar (Mitra) | Tabel penuh | Card list vertikal |
+| Tabel pelamar (Industri) | Tabel penuh | Card list vertikal |
 | Dashboard stats | 4 kolom | 2x2 grid |
 | Form tambah portofolio | Side panel | Full screen modal |
 

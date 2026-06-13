@@ -29,7 +29,7 @@
 
 | Layer | Teknologi | Versi | Alasan Dipilih |
 |-------|-----------|-------|----------------|
-| **Frontend Framework** | React | 18.x | Component-based, ecosystem besar, familiar tim |
+| **Frontend Framework** | React | 19.x | Component-based, ecosystem besar, familiar tim |
 | **Build Tool** | Vite | 5.x | Fast HMR, build cepat vs CRA |
 | **Styling** | Tailwind CSS | 3.x | Utility-first, responsive by default, tidak perlu custom CSS banyak |
 | **Form & Validation (FE)** | React Hook Form + Zod | latest | Terintegrasi, performan, type-safe validation |
@@ -39,13 +39,15 @@
 | **Icons** | Lucide React | — | Konsisten, tree-shakable |
 | **Charts** | Recharts | 2.x | Declarative, React-native charts untuk admin analytics |
 | **Backend Runtime** | Node.js | ≥ 18 LTS | Non-blocking I/O, ekosistem npm |
-| **Backend Framework** | Express.js | 4.x | Minimal, fleksibel, familiar untuk tim student |
+| **Backend Framework** | Express.js | 5.x | Minimal, fleksibel, familiar untuk tim student |
 | **ORM** | Prisma | ≥ 5.x | Type-safe, migration mudah, developer experience baik |
 | **Database** | PostgreSQL | ≥ 14 | Relational, robust, gratis di Railway |
 | **Auth Mechanism** | JWT (HS256) | — | Stateless, scalable, access + refresh token pattern |
 | **Password Hashing** | bcryptjs | — | Industri standar untuk password hashing |
 | **Input Validation (BE)** | Zod | — | Schema validation yang konsisten antara FE & BE |
 | **File Storage** | Cloudinary | SDK v2 | CDN terintegrasi, transformasi gambar otomatis |
+| **File Upload** | Multer | 2.x | Middleware file upload (digunakan bersama Cloudinary) |
+| **XSS Sanitization** | xss | 1.x | Sanitasi input server-side, mencegah XSS pada data tersimpan |
 | **Security Headers** | Helmet.js | — | HTTP security headers best practice |
 | **Rate Limiting** | express-rate-limit | — | Proteksi DDoS dan brute force |
 | **Frontend Deploy** | Vercel | — | Free tier, auto-deploy dari Git, edge CDN global |
@@ -61,7 +63,7 @@
 │                                                                         │
 │   BROWSER / CLIENT                                                      │
 │   ┌──────────────────────────────────────────────────────────────────┐  │
-│   │  React 18 + Vite                                                 │  │
+│   │  React 19 + Vite                                                 │  │
 │   │  ┌────────────┐  ┌────────────┐  ┌────────────┐  ┌───────────┐  │  │
 │   │  │  Pages     │  │ Components │  │  Contexts  │  │    Lib    │  │  │
 │   │  │ /student   │  │  layout/   │  │AuthContext │  │  api.js   │  │  │
